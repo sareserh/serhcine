@@ -1,0 +1,243 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+html{
+	font-size:16px;
+}
+header{
+	background-color:#af8f26;
+	text-align:center;
+    margin-bottom: 0%;
+    font-size: 40px;
+ }
+ h1{
+    color: #3bc0f4;
+ }
+
+#todo{
+    height:500px;}
+
+section{
+	background-color: #3bc0f4;
+	font-size:1.2rem;
+	
+}
+#lateralIzq{
+    background-color: #b198ec;
+    padding: 50px 100px; 
+}	
+#lateralDer{
+    background-color: #b178ec;
+    padding: 50px 100px; 
+}
+    #autor{
+        color: #fff;
+        text-align: center;
+    }
+    .contenedor{
+        width: 500px;
+        border: solid 1px #ffd700;
+        padding: 10px;
+        margin: 10px auto;
+        text-align: center;
+        display:none;
+      }
+      #divFoto{
+        width: 80%;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        #texto{
+            width: 80%;
+            height: 10%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+            
+        }
+
+        #peliculas{
+            margin-left:auto;
+            text-align:center;
+        }
+    .imgRad{
+        width: 203px;
+		height: 251px;
+		display: inline-block;
+        border-right: 20px;
+		padding-top: 10px;
+    }
+    #foto{
+		width: 203px;
+		height: 251px;
+		text-align: center;
+		box-shadow: 0px 0px 15px  #e2bc00d8;
+	}
+    #inputFile1{
+        width: 180px;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        display: none;
+    }
+    .res{
+		width:99%;
+		line-height:25px;
+		border:solid 1px #FFE459;
+		padding:10px;
+		margin:10px auto;
+	}
+
+    #estilos div{
+        width: 30px;
+        height: 30px;
+        border: solid 1px #000;
+        display: inline-block;
+        border-radius: 50%;
+        margin: 5px 10px;
+        cursor: pointer;
+    } 
+
+    .mas{
+        line-height: 70px;
+        border: solid 4px #f00;
+        border-radius: 10px 0px;
+        width:60%;
+        color:#fff;
+        box-shadow: 0px 0px 15px #ff0;
+        text-align: center;
+    }
+
+    #adul{
+        text-align:center;
+    }
+/*------------------------------------resultados------------------------ */
+  
+    
+            legend{
+                text-align: left;
+                font-weight: bold;
+                font-size: 22px;
+                margin-left: 20px;
+                color: #204956;
+            }
+    
+            #receptor, #cuerpo{
+                margin: 20px auto;
+            }
+    
+            button{
+                width: 150px;
+                height: 35px;
+                border-radius: 20px;
+                background-color: #1bb428;
+                color: #fff;
+                font-size: 16px;
+                display: block;
+                margin: 10px auto;
+            }
+    
+            button:active{
+                background-color: #fff;
+                color: #1bb428;
+            }
+    
+    footer{
+        background-color: #204956;
+    }
+    
+    
+    /*-------------------------------------------------------------------------*/
+        /*  Receptor */
+            .datos-receptor{
+                margin: 15px 0px 15px 30px;
+            }
+    
+            #titulo-conceptos{
+                margin: 0 auto;
+                width: 300px;
+                text-align: center;
+            }
+    
+            .titulo-conceptos{
+                display: block;
+            }
+    
+            .quitar-titulo-conceptos{
+                display: none;
+            }
+    
+            #titulo-conceptos > input{
+                width: 70px;
+                text-align: center;
+                margin: 0 auto;
+            }
+    
+          
+        /* Conceptos */
+    
+        #conceptos label{
+            display: inline-block;
+            text-align: left;
+            padding: 10px 20px;
+        }
+    
+        #conceptos input{
+            display: block;
+        }
+    
+        #cuerpo input[type="number"]{
+            text-align: right;
+            width: 150px;
+        }
+        
+        #descripcion{
+            width:400px;
+        }
+    
+        .agregar{
+            margin: 10px;
+            margin-left: auto;
+            display: none;
+        }
+    
+        .mostrar-agregar{
+            display: block;
+        }
+        .ticket{
+            margin: 10px;
+            margin-left: auto;
+            display: none;
+        }
+        .mostrar-ticket{
+            background-color:Yellow;
+            display: block;
+            color:black;
+        }
+    
+    
+        /*Totales */
+    
+        #totales{
+            width: 250px;
+            margin-left: auto;
+            padding: 0px 10px 10px;
+        }
+    
+        table, th, td{
+            border-bottom: 1px solid #204956;
+            border-collapse: collapse;
+            text-align: right;
+            padding-top: 10px;
+        }
+    
+        td{
+            width: 150px;
+        }
+    
+        
